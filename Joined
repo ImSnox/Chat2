@@ -2,7 +2,7 @@ local Players = game.Players
 Players.PlayerAdded:Connect(function(player)
 
 local args = {
-    [1] = player.Name.." Just Joined",
+    [1] = player.DisplayName.." Just Joined",
     [2] = "All"
 }
 
